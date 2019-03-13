@@ -41,7 +41,7 @@ describe("NgDoc.io Tests", function() {
 
       cy.get("input#keyword").type("NgRx{enter}");
 
-      cy.get("article").should("have.length", 27);
+      cy.get("article").should("have.length", 26);
     });
   });
 });
